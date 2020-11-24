@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customSelectorCell" id="gTV-IL-0wX" customClass="AECustomIconSelectorCell" customModule="Aether" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUL-Ly-eYY">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bedroomIcon" translatesAutoresizingMaskIntoConstraints="NO" id="UWd-vW-tVk">
+                                <rect key="frame" x="40" y="40" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UWd-vW-tVk" secondAttribute="height" multiplier="1:1" id="hUW-2w-iOb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="3vI-nf-3CW"/>
+                            <constraint firstItem="UWd-vW-tVk" firstAttribute="centerX" secondItem="mUL-Ly-eYY" secondAttribute="centerX" id="YUv-tf-Bbp"/>
+                            <constraint firstAttribute="width" constant="200" id="jyH-gm-lhw"/>
+                            <constraint firstItem="UWd-vW-tVk" firstAttribute="width" secondItem="mUL-Ly-eYY" secondAttribute="width" multiplier="0.6" id="vLZ-1B-6mC"/>
+                            <constraint firstItem="UWd-vW-tVk" firstAttribute="centerY" secondItem="mUL-Ly-eYY" secondAttribute="centerY" id="waT-Tw-ECt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="mUL-Ly-eYY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Pa-Np-feJ"/>
+                <constraint firstAttribute="trailing" secondItem="mUL-Ly-eYY" secondAttribute="trailing" id="LmZ-02-S6t"/>
+                <constraint firstItem="mUL-Ly-eYY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bhj-An-uCP"/>
+                <constraint firstAttribute="bottom" secondItem="mUL-Ly-eYY" secondAttribute="bottom" id="o5W-XR-Lch"/>
+            </constraints>
+            <size key="customSize" width="160" height="160"/>
+            <connections>
+                <outlet property="background" destination="mUL-Ly-eYY" id="QB3-9a-f8u"/>
+                <outlet property="iconView" destination="UWd-vW-tVk" id="DfC-Oo-2NR"/>
+            </connections>
+            <point key="canvasLocation" x="14.492753623188406" y="94.419642857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bedroomIcon" width="72" height="51"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

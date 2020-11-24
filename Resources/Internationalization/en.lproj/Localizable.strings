@@ -1,0 +1,163 @@
+/*
+  Localizable.strings
+  Aether
+
+  Created by Gabriel Gazal on 11/09/20.
+  Copyright © 2020 Bruno Pastre. All rights reserved.
+*/
+
+//Tela de boas vindas
+"Bem-vindo" = "Welcome!";
+"Bem-vindo description" = "If you have downloaded the app you probably received our product! Let's begin?";
+"Começar" = "Get started";
+"Não" = "No";
+"Não recebi" = "I haven't received yet";
+
+// tela de permissoes
+"Vamos lá" = "Let's go!";
+"desc" = "We need access to some personal resources, please allow access so we can continue";
+//tela de setup
+"Cadastre Wifi" = "Setup Wi-Fi";
+"Wifi description" = "We're going to need the network your phone is connected to.";
+"Nome Wifi placeholder" = "Wi-fi name";
+"Senha Wifi placeholder" = "Wi-Fi password";
+"Wifi invalido" = "Wi-Fi invalid, verify your data";
+"Continuar" = "Continue";
+
+//tela de menu
+"Todos" = "All";
+"Cômodos" = "Rooms";
+"Favoritos" = "Favorites";
+"Sem dispositivo" = "No devices found\nin this room";
+"Home" = "Home";
+"Loja" = "Store";
+"Ajustes" = "Settings";
+
+//alert de apagar
+"Delete Titulo" = "Delete";
+"Delete description" = "Are you sure you want to delete";
+
+//modal de edicao de acessorio
+"Salvar" = "Save";
+"Cômodo" = "Room";
+"Favorito" = "Favorite";
+"Apagar" = "Delete device";
+
+//pagina da loja
+"Descricao loja" = "Our lightbulb adapter brings more comfort to your home! It's easy to install and integrate with the Aether app, allowing for an excellent automated home experience :)";
+"Nome produto" = "Lumni";
+"Descricao produto" = "Automated lightbulb adapter";
+"Comprar agora" = "Buy now";
+ 
+//alert nao da pra comprar
+"Ops" = "Ops!";
+"Indisponivel" = "Lumni is unavailable right now :(";
+
+//tela de configuracoes
+
+"Ajustes" = "Settings";
+"Compartilhar casa" = "Share home";
+"Atualização" = "Updates";
+"Alterar WiFi" = "Change WiFi";
+"Alterar casa" = "Change home";
+"Casa"= "Home";
+
+//tela introdrução
+
+"Vamos lá" = "Let's go!";
+"Intro descricao" = "Is your accessory an Aether product or a third-party one?";
+"Aether" = "Aether";
+"Outro" = "Other";
+
+//onboarding
+
+"Primeiro passo" = "First step";
+"Primeira descricao" = "Turn off the the desired light switch. Is it off?";
+"Segundo passo" = "Just plug it in!";
+"Segunda descricao" = "Connect the Aether Lumni adapter to the desired lightbulb. Done?";
+"Terceiro passo" = "Turn it back on!";
+"Terceira descricao" = "You can turn on your light now so we can set it up :)";
+"Sim enfático" = "Yes!";
+"Pronto!" = "Ready!";
+"Pronto" = "Ready";
+"Voltar" = "Previous";
+"Próximo" = "Next";
+
+//tela com textao
+"Certo" = "Right!";
+"Textao" = "Para utilizar acessório de terceiros no app da Aether, é preciso que você siga as instruções do próprio fabricante.\n\nDepois de feita a instalação do dispositivo no aplicativo Home ele irá ser automaticamente adicionado ao nosso app :)";
+"Ok" = "Ok";
+
+
+//tela novo acessorio
+"Conectar" = "Connect";
+"Procurando" = "Searching for devices";
+"Encontrado" = " was found!\nWould you like to set it up?";
+"Novo acessorio" = "One new accessory";
+
+//Scene alert
+"Alert Title" = "Ops";
+
+// MISSING
+"Não encontri nenhum lugar" = "Could not find any places.";
+"Aether gostaria de usar" = "Aether would like to use";
+"Permitir nos ajustes" = "Allow in settings";
+"Ajustes" = "Settings";
+"Agora não" = "Not now";
+
+"Ícone do cômodo" = "Room's icon";
+"Criar cômodo" = "Create room";
+"   Nome do cômodo" = "   Room's name";
+"Pronto" = "Done";
+"     Novo acessório" = "     New accessory";
+"     Novo cômodo" = "     New room";
+
+// Scenes
+"Cena Aether" = "Aether action";
+"Cenas" = "Scenes";
+"Criar cena" = "Create scene";
+"Escolha quando quer que a automação ocorra" = "Chose when you want your automation to happen";
+"Pessoas chegarem" = "People Arrive";
+"Pessoas saírem" = "People Leave";
+"Um horário" = "Time";
+"Um acessório é controlado" = "Other accessory";
+"\"Ao chegar em casa\"" = "\"When I arrive at home\"";
+"\"Todos já saíram\"" = "\"Everybody leaves\"";
+"\"Às 8h\"" = "\"At 8 o'clock\"";
+"Ex. \"Acender as luzes\"" = "Ex. \"Lights on\"";
+"   Nome da cena" = "   Scene's name";
+"Ícone da cena" = "Scene's icon";
+"Qualquer" = "Any";
+"Acessórios" = "Accessories";
+"Horário" = "Time";
+"Dias" = "Days";
+"Localização" = "Location";
+"Sua casa" = "Your home";
+
+// ICON NAMES
+
+"Casa" = "Home";
+"Banheiro" = "Bathroom";
+"Cozinha" = "Kitchen";
+"Quarto" = "Bedroom";
+"Garagem" = "Garage";
+"Jardim" = "Garden";
+"Lavanderia" = "Laundry";
+"Escritório" = "Office";
+"Lâmpada" = "Lamp";
+"Closet" = "Closet";
+"Sala" = "Room";
+    
+"Editar cômodo" = "Edit room";
+
+"Sol" = "Sun";
+"Lua" = "Moon";
+"Academia" = "Gym";
+"Festa" = "Party";
+"Estudo" = "Study";
+"Trabalho" = "Work";
+"Sair de casa" = "Leave home";
+"Chegar em casa" = "Arrive at home";
+//"<#PT#>" = "<#EN#>";
+//"<#PT#>" = "<#EN#>";
+//"<#PT#>" = "<#EN#>";

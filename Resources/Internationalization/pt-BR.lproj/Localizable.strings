@@ -1,0 +1,94 @@
+/*
+  Localizable.strings
+  Aether
+
+  Created by Gabriel Gazal on 11/09/20.
+  Copyright © 2020 Bruno Pastre. All rights reserved.
+*/
+
+//Tela de boas vindas
+"Bem-vindo" = "Bem-vindo!";
+"Bem-vindo description" = "Se você baixou nosso app então provavelmente recebeu nosso produto! Vamos começar?";
+"Começar" = "Começar";
+"Não" = "Não";
+"Não recebi" = "Ainda não recebi";
+
+// tela de permissoes
+"desc" = "Precisamos do acesso de alguns recursos do seu celular, aceite as solicitações para podermos contiuar!";
+//tela de setup
+"Cadastre Wifi" = "Cadastre seu Wi-Fi";
+"Wifi description" = "Vamos precisar do wifi que você conecta seu celular.";
+"Nome Wifi placeholder" = "Nome do Wi-fi";
+"Senha Wifi placeholder" = "Senha do Wi-Fi";
+"Wifi invalido" = "Wi-Fi inválido, verique seus dados";
+"Continuar" = "Continuar";
+
+//tela de menu
+"Todos" = "Todos";
+"Cômodos" = "Cômodos";
+"Favoritos" = "Favoritos";
+"Sem dispositivo" = "Você ainda não tem nenhum dispositivo cadastrado nessa seção";
+"Home" = "Home";
+"Loja" = "Loja";
+"Ajustes" = "Ajustes";
+
+//alert de apagar
+"Delete Titulo" = "Apagar";
+"Delete description" = "Tem certeza que deseja excluir";
+
+//modal de edicao de acessorio
+"Salvar" = "Salvar";
+"Cômodo" = "Cômodo";
+"Favorito" = "Favorito";
+"Apagar" = "Apagar dispositivo";
+
+//pagina da loja
+"Descricao loja" = "Nosso adaptador de lâmpadas Lunmi trás um maior conforto para sua casa! A fácil instalação e integração com app Aether permitem uma excelente experiência para sua casa automatizada :)";
+"Nome produto" = "Lumni";
+"Descricao produto" = "Adaptador automatizado para lâmpadas";
+"Comprar agora" = "Comprar agora";
+ 
+//alert nao da pra comprar
+"Ops" = "Ops!";
+"Indisponivel" = "Por enquanto a Lumni está indisponível :(";
+
+//tela de configuracoes
+
+"Ajustes" = "Ajustes";
+"Compartilhar casa" = "Compartilhar casa";
+"Alterar WiFi" = "Alterar WiFi";
+"Alterar casa" = "Casas";
+"Casa"= "Casa";
+
+//tela introdrução
+
+"Vamos lá" = "Vamos lá!";
+"Intro descricao" = "O dispositivo que você irá instalar é da Aether ou de outro fabricante?";
+"Aether" = "Aether";
+"Outro" = "Outro fabricante";
+
+//onboarding
+
+"Primeiro passo" = "Primeiro passo";
+"Primeira descricao" = "Desligue o interruptor da lâmpada escolhida! Ele está desligado?";
+"Segundo passp" = "Agora só encaixar!";
+"Segunda descricao" = "Encaixe o nosso adaptador no bocal da lâmpada escolhida. Já encaixou?";
+"Terceiro passo" = "Ligue a luz!";
+"Terceira descricao" = "Pode ligar a luz no seu interruptor para podermos cadastrar a lâmpada :)";
+"Sim enfático" = "Sim!";
+"Pronto!" = "Pronto!";
+
+//tela com textao
+"Certo" = "Certo!";
+"Textao" = "Para utilizar acessório de terceiros no app da Aether, é preciso que você siga as instruções do próprio fabricante.\n\nDepois de feita a instalação do dispositivo no aplicativo Home ele irá ser automaticamente adicionado ao nosso app :)";
+"Ok" = "Ok";
+
+
+//tela novo acessorio
+"Conectar" = "Conectar";
+"Procurando" = "Procurando dispositivos...";
+"Encontrado" = "foi encontrado!\nGostaria de conectar?";
+"Novo acessorio" = "Um novo acessório";
+
+//Scene alert
+"Alert Title" = "Ops";

@@ -1,0 +1,75 @@
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "1k9-dh-rkU"; */
+"1k9-dh-rkU.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "O dispositivo que você irá instalar é da Aether ou de outro fabricante?"; ObjectID = "3Jx-kx-dQu"; */
+"3Jx-kx-dQu.text" = "O dispositivo que você irá instalar é da Aether ou de outro fabricante?";
+
+/* Class = "UILabel"; text = "Certo!"; ObjectID = "4lH-qc-sdi"; */
+"4lH-qc-sdi.text" = "Certo!";
+
+/* Class = "UILabel"; text = "Desligue o interruptor da lâmpada escolhida! Ele está desligado?"; ObjectID = "8gf-r6-N9Z"; */
+"8gf-r6-N9Z.text" = "Desligue o interruptor da lâmpada escolhida! Ele está desligado?";
+
+/* Class = "UILabel"; text = "Bem - vindo!"; ObjectID = "D5O-3q-OU7"; */
+"D5O-3q-OU7.text" = "Bem - vindo!";
+
+/* Class = "UILabel"; text = "Primeiro passo"; ObjectID = "FZ4-ry-xh7"; */
+"FZ4-ry-xh7.text" = "Primeiro passo";
+
+/* Class = "UILabel"; text = "Se você baixou nosso app então provavelmente recebeu nosso produto! Vamos começar?"; ObjectID = "P3a-Av-xuy"; */
+"P3a-Av-xuy.text" = "Se você baixou nosso app então provavelmente recebeu nosso produto! Vamos começar?";
+
+/* Class = "UILabel"; text = "Vamos precisar do wifi que você conecta seu celular."; ObjectID = "PhT-ll-f38"; */
+"PhT-ll-f38.text" = "Vamos precisar do wifi que você conecta seu celular.";
+
+/* Class = "UIButton"; normalTitle = "Aether"; ObjectID = "REg-za-2jn"; */
+"REg-za-2jn.normalTitle" = "Aether";
+
+/* Class = "UIButton"; normalTitle = "Sim!"; ObjectID = "Rrt-t1-Q1G"; */
+"Rrt-t1-Q1G.normalTitle" = "Sim!";
+
+/* Class = "UIButton"; normalTitle = "Voltar"; ObjectID = "RtQ-qs-S51"; */
+"RtQ-qs-S51.normalTitle" = "Voltar";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZKM-5v-nXq"; */
+"ZKM-5v-nXq.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "De outra pessoa"; ObjectID = "aEJ-mH-eoW"; */
+"aEJ-mH-eoW.normalTitle" = "De outra pessoa";
+
+/* Class = "UIButton"; normalTitle = "Comprar agora"; ObjectID = "bhZ-F0-k4S"; */
+"bhZ-F0-k4S.normalTitle" = "Comprar agora";
+
+/* Class = "UILabel"; text = "   Wifi inválido, verifique seus dados"; ObjectID = "cFG-f5-LpC"; */
+"cFG-f5-LpC.text" = "   Wifi inválido, verifique seus dados";
+
+/* Class = "UILabel"; text = "Para utilizar acessório de terceiros no app da Aether, é preciso que você siga as instruções do próprio fabricante.\n\n Depois de feita a instalação do dispositivo no aplicativo Home ele irá ser automaticamente adicionado ao nosso app :) "; ObjectID = "cfJ-8d-zrF"; */
+"cfJ-8d-zrF.text" = "Para utilizar acessório de terceiros no app da Aether, é preciso que você siga as instruções do próprio fabricante.\n\n Depois de feita a instalação do dispositivo no aplicativo Home ele irá ser automaticamente adicionado ao nosso app :) ";
+
+/* Class = "UILabel"; text = "Adicionar cômodo"; ObjectID = "jq1-5N-yIq"; */
+"jq1-5N-yIq.text" = "Adicionar cômodo";
+
+/* Class = "UILabel"; text = "Em que lugar está seu dispositivo?"; ObjectID = "nJo-4z-Yq5"; */
+"nJo-4z-Yq5.text" = "Em que lugar está seu dispositivo?";
+
+/* Class = "UITextField"; placeholder = "Nome do Wi-Fi"; ObjectID = "obP-a3-bvT"; */
+"obP-a3-bvT.placeholder" = "Nome do Wi-Fi";
+
+/* Class = "UITextField"; placeholder = "Senha do Wi-Fi"; ObjectID = "olO-HS-T3k"; */
+"olO-HS-T3k.placeholder" = "Senha do Wi-Fi";
+
+/* Class = "UILabel"; text = "Vamos lá!"; ObjectID = "qmI-mP-7FF"; */
+"qmI-mP-7FF.text" = "Vamos lá!";
+
+/* Class = "UILabel"; text = "Cadastre seu Wi-Fi"; ObjectID = "rtG-eY-OBk"; */
+"rtG-eY-OBk.text" = "Cadastre seu Wi-Fi";
+
+/* Class = "UITextField"; placeholder = "Cômodo"; ObjectID = "sn7-WY-I0O"; */
+"sn7-WY-I0O.placeholder" = "Cômodo";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "u9k-0K-5KR"; */
+"u9k-0K-5KR.normalTitle" = "Continuar";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "yyv-wQ-IXG"; */
+"yyv-wQ-IXG.normalTitle" = "Ok";

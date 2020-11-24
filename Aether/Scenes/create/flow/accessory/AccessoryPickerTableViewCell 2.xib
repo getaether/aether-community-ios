@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="136" id="BIz-yI-yKd" customClass="AccessoryPickerTableViewCell" customModule="Aether" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BIz-yI-yKd" id="z0E-Ay-3in">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-VO-7Fb">
+                        <rect key="frame" x="10" y="27" width="81.5" height="82"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check_shape" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-s6-bSe">
+                                <rect key="frame" x="16.5" y="16.5" width="49" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ks8-s6-bSe" secondAttribute="height" multiplier="1:1" id="BwL-nc-KCS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2ck-VO-7Fb" secondAttribute="height" id="8Hy-E0-D6P"/>
+                            <constraint firstItem="ks8-s6-bSe" firstAttribute="centerY" secondItem="2ck-VO-7Fb" secondAttribute="centerY" id="CCG-fv-6N8"/>
+                            <constraint firstItem="ks8-s6-bSe" firstAttribute="width" secondItem="2ck-VO-7Fb" secondAttribute="width" multiplier="0.6" id="kdC-uZ-Js5"/>
+                            <constraint firstItem="ks8-s6-bSe" firstAttribute="centerX" secondItem="2ck-VO-7Fb" secondAttribute="centerX" id="n4O-NE-r5P"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlK-EM-fLX">
+                        <rect key="frame" x="111.5" y="4" width="262.5" height="128"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding3" translatesAutoresizingMaskIntoConstraints="NO" id="y39-jU-fqM">
+                                <rect key="frame" x="149.5" y="17.5" width="93" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="y39-jU-fqM" secondAttribute="height" id="vpn-T0-vuy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8b-JM-jck">
+                                <rect key="frame" x="20" y="6" width="41.5" height="116"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="f8b-JM-jck" firstAttribute="leading" secondItem="XlK-EM-fLX" secondAttribute="leading" constant="20" id="3PE-Qs-JSE"/>
+                            <constraint firstAttribute="trailing" secondItem="y39-jU-fqM" secondAttribute="trailing" constant="20" id="CNO-BV-juk"/>
+                            <constraint firstItem="f8b-JM-jck" firstAttribute="centerY" secondItem="XlK-EM-fLX" secondAttribute="centerY" id="Kuj-a8-fgf"/>
+                            <constraint firstItem="y39-jU-fqM" firstAttribute="height" secondItem="f8b-JM-jck" secondAttribute="height" multiplier="0.8" id="Py7-hK-0u3"/>
+                            <constraint firstItem="f8b-JM-jck" firstAttribute="height" secondItem="XlK-EM-fLX" secondAttribute="height" multiplier="0.90625" id="RW5-fd-kWk"/>
+                            <constraint firstItem="y39-jU-fqM" firstAttribute="centerY" secondItem="f8b-JM-jck" secondAttribute="centerY" id="lRr-Jb-bBi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XlK-EM-fLX" firstAttribute="top" secondItem="z0E-Ay-3in" secondAttribute="top" constant="4" id="BKH-R4-noM"/>
+                    <constraint firstAttribute="bottom" secondItem="XlK-EM-fLX" secondAttribute="bottom" constant="4" id="ItN-Js-KWD"/>
+                    <constraint firstAttribute="trailing" secondItem="XlK-EM-fLX" secondAttribute="trailing" constant="40" id="KU8-rk-ReQ"/>
+                    <constraint firstItem="2ck-VO-7Fb" firstAttribute="leading" secondItem="z0E-Ay-3in" secondAttribute="leading" constant="10" id="WL3-aa-6Pa"/>
+                    <constraint firstItem="2ck-VO-7Fb" firstAttribute="centerY" secondItem="z0E-Ay-3in" secondAttribute="centerY" id="fJB-n2-R8D"/>
+                    <constraint firstItem="2ck-VO-7Fb" firstAttribute="height" secondItem="z0E-Ay-3in" secondAttribute="height" multiplier="0.6" id="fNm-PJ-YTv"/>
+                    <constraint firstItem="XlK-EM-fLX" firstAttribute="leading" secondItem="2ck-VO-7Fb" secondAttribute="trailing" constant="20" id="mRJ-PT-cqT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="checkImageView" destination="ks8-s6-bSe" id="dmY-Wx-c61"/>
+                <outlet property="containerView" destination="XlK-EM-fLX" id="pmf-KJ-7zH"/>
+                <outlet property="imageContainerView" destination="2ck-VO-7Fb" id="mvq-te-pPf"/>
+                <outlet property="nameLabel" destination="f8b-JM-jck" id="7Pw-fI-dXh"/>
+                <outlet property="switchImageView" destination="y39-jU-fqM" id="1lB-ug-7Rn"/>
+            </connections>
+            <point key="canvasLocation" x="-88.405797101449281" y="-22.098214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check_shape" width="11" height="8"/>
+        <image name="onboarding3" width="212" height="212"/>
+    </resources>
+</document>
